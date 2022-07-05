@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+}
+.header {
+	padding: 10px;
+	background: #491b01;
+	font-size: 15px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #491b01;
+	text-align: center;
+}
+.table1 td {
+	padding: 8px;
+}
+.tab1p {
+	text-align: center;
+}
+a {
+	font-family: Verdana;
+}
+.linkhead a:link {
+	text-decoration: none;
+	color: white;
+}
+.linkhead a:visited {
+	color: white;
+}
+.linkhead a:hover {
+	color: white;
+}
+.linkhead a:active {
+	color: white;
+}
+.linkuniv a:link {
+	text-decoration: none;
+	color: #2ACAEA;
+}
+.linkuniv a:visited {
+	color: #2ACAEA;
+}
+.linkuniv a:hover {
+	color: #110a60;
+	-webkit-transition: 0.5s;
+}
+.linkuniv a:active {
+	color: #2ACAEA;
+}
+.table2 {
+	background-color: #491b01;
+	width: 100%;
+	padding: 30px;		
+	text-align: center;
+}
+.table3 {
+	background-color: #159757;
+	width: 100%;
+	padding: 1px;
+	text-align: center;
+}
+.fsize {
+	font-size: 110%;
+	font-family: Verdana;
+}
+.bground {
+	background-color: #f1c27d;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+.table4 td {
+	width: 20%;
+	height: 2em;
+	padding: 10px;
+}
+.borderBulat {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    padding: 4px;
+
+    background: #fff;
+    border: 2px solid #159757;
+    color: #159757;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+.centerjs {
+	width: 200px;
+	text-align: center;
+}
+.buttoncss {
+	background-color: #0488d0;
+	font-size: 14px;
+	font-family: verdana;
+	color: white;
+	padding: 15px 50px;
+	border-radius: 10px;
+	border: 1px solid #0488d0;
+	-webkit-transition: 0.5s;
+	cursor: pointer;
+}
+.active, .buttoncss:hover {
+	color: #110a60;
+}
+input[type=text], select {
+	padding: 12px 10px;
+	width: 90%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+	border-radius: 6px;
+}
+input[type=text]:focus {
+  border: 2px solid #555;
+}
+input[type=submit] {
+	padding: 16px 24px;
+	background-color: #c68642;
+	color: white;
+	cursor: pointer;
+}
+*{box-sizing:border-box}
+.slideshow-container {
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+	z-index: -1;
+}
+.mySlides {
+	display: none;
+}
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	font-family: verdana;
+	font-size: 16px;
+}
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}

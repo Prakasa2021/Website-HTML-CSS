@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RotiKu</title>
+		<link href="mycss.css" rel="stylesheet" type="text/css">
+		<nav class="header">
+			<div class="linkhead">
+				<table align="center" class="table1">
+					<tr>
+						<td><a href="index.html">Home</a></td>
+						<td><a href="produk.html">Produk Kami</a></td>
+						<td><a href="kontak.html">Kontak Kami</a></td>
+						<td><a href="tentang.html">Tentang Kami</a></td>
+						<td><a href="hubungan.html">Hubungan Investasi</a></td>
+					</tr>
+				</table>
+			</div>
+		</nav>
+	</head>
+	<body>
+		</br>
+		<img src="Background.png" alt="Produk unggulan RotiKu" width="100%">
+		</br></br></br>
+		<table width="100%" class="tab1p">
+			<tr>
+				<td width="30%">
+					<h2 style="font-family:Comic sans ms">RotiKu telah lebih dari</h2>
+					<h2 style="font-family:Comic sans ms">20 tahun memproduksi,</h2>
+					<h2 style="font-family:Comic sans ms">Roti terbaik dari bahan</h2>
+					<h2 style="font-family:Comic sans ms">pilihan <em>"bermutu tinggi".</em></h2>
+				</td>
+				<td width="30%">
+					<img src="kantor.png" alt="kantor RotiKu" width="60%">
+					<h3 style="font-family:Verdana">Sejarah Kami</h3>
+					<p style="font-family:Verdana">Sejak tahun 2000, PT RotiKu telah</p>
+					<p style="font-family:Verdana">memproduksi berbagai jenis roti tawar</p>
+					<p style="font-family:Verdana">dan roti isi.</p>
+				</td>
+				<td width="30%">
+					<img src="cabang.png" alt="kantor cabang" width="60%">
+					<h3 style="font-family:verdana">Cabang Produksi</h3>
+					<p style="font-family:Verdana">Sebagai produsen roti terbesar, kami</p>
+					<p style="font-family:Verdana">memiliki berbagai cabang produksi</p>
+					<p style="font-family:Verdana">di beberapa wilayah di Indonesia.</p>
+				</td>
+			<tr>
+		</table>
+		</br></br>
+		<table style="color:#491b01">
+			<tr>
+				<td width="60%">
+					<img src="invest.png" width="100%" height="100%">
+				</td>
+				<td width="5%">
+				</td>
+				<td width="50%">
+					<h1 style="font-family:verdana">Investor</h1>
+					<p style="font-size:15px; font-family:verdana">Selamat datang di investasi PT RotiKu Nusantara Tbk.</p>
+					<p style="font-size:15px; font-family:verdana">Kami membuka investasi bagi investor yang ingin</p>
+					<p style="font-size:15px; font-family:verdana">mengajukan investasi di perusahaan kami.</p>
+					<p style="font-size:15px; font-family:verdana">Anda dapat mengakses informasi mengenai laporan</p>
+					<p style="font-size:15px; font-family:verdana">keuangan, informasi saham dan informasi lainnya.</p>
+					</br>
+					<button class="buttoncss" type="button" onclick="window.location.href='hubungan.html'">LEBIH LANJUT</button>
+				</td>
+			</tr>
+		</table>
+		</br></br>
+		<div class="bground">
+			<h1 style="font-family:verdana">Produk Kami</h1>
+			<div class="fsize">
+				<p>Kami terus mengembangkan berbagai macam jenis roti yang sesuai dengan perkembangan jaman,</p>
+				<p>di mana variasi roti tidak lagi terbatas dan membutuhkan banyak inovasi agar mampu</p>
+				<p>untuk terus diminati kalangan masyarakat saat ini dan ke depannya.</p>
+				</br>
+				<p>Kami akan terus memproduksi berbagai variasi roti dengan kualitas tinggi</p>
+				<p>dan dengan harga yang terjangkau bagi seluruh masyarakat.</p>
+			</div>
+		</div>
+		</br>
+		<div class="slideshow-container">
+		  <div class="mySlides fade">
+			<img src="rotitawar.png" style="width:100%">
+			<div class="text">ROTI TAWAR</div>
+		  </div>
+		  <div class="mySlides fade">
+			<img src="rotiisi.png" style="width:100%">
+			<div class="text">ROTI ISI</div>
+		  </div>
+		  <div class="mySlides fade">
+			<img src="dorayaki.png" style="width:100%">
+			<div class="text">KUE</div>
+		  </div>
+		</div>
+		<br>
+		<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {slideIndex = 1}
+				slides[slideIndex-1].style.display = "block";
+			setTimeout(showSlides, 2000);
+		}
+		</script>
+		<table class="table2">
+			<tr class="linkhead">
+				<td width="50%">
+					<a href="tentang.html">Tentang RotiKu</a></br></br>
+					<a href="produk.html">Produk Kami</a></br></br>
+					<a href="kontak.html">Hubungi Kami</a></br></br>
+					<a href="hubungan.html">Hubungan Investasi</a>
+				</td>
+				<td width="50%" style="border-left-style:solid; border-left-color:#ffffff">
+					<a href="https://facebook.com" target="__blank">Facebook</a></br></br>
+					<a href="https://instagram.com" target="__blank">Instagram</a></br></br>
+					<a href="https://twitter.com" target="__blank">Twitter</a>
+				</td>
+			</tr>
+		</table>
+		<table class="table3">
+			<tr class="linkhead">
+				<td>
+					<p align="center" style="color:white; font-family:verdana">Copyright © 2022 <a href="index.html">RotiKu</a> all rights reversed. PT RotiKu Nusantara Tbk.</p>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
